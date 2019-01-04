@@ -58,6 +58,9 @@ Watch GridTracker for new spots, once a minute
 Stop WSJT-X UDP broadcaster
 rp-f055cc:~# killall jtudp.pl
 
+Finally, to make the PERL scripts stick after a reboot, run the following command to save them
+
+rp-f055cc:~# lbu_commit -d
 
 Enjoy!
 
